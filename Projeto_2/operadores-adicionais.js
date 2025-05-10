@@ -3,7 +3,7 @@
 
   ++ incremento
 
-  ?  ternário
+  ? ternário
   
  */
 
@@ -36,4 +36,4 @@ const porte = pesoDoDogOperadorTernario <= 10 // se if
 
                console.log(porte)
 
-{/* <condicao> ? <acao se verdadeiro> : <acao se falso> */}
+{/* <condicao> ? <acao se verdadeiro> : <acao se falso> */} 
