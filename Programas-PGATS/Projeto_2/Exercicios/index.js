@@ -150,5 +150,5 @@ console.log(fraseTeste.slice(1,7))
                 // 0       1         2        3       4          5
 const animais = ["anta", "mula", "cavalo", "pato", "galinha", "cobra"];
 
-console.log(animais.slice(2, 5));
+console.log(animais.slice(2, 5)); //retorna algo no terminal
  
