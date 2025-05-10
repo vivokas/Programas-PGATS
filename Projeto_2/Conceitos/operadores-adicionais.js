@@ -5,8 +5,6 @@
 
   ? ternário
   
-  alterado arquivo 2
-
  */
 
 // incremento
