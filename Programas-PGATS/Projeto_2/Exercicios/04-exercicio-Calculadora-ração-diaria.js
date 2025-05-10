@@ -48,7 +48,6 @@ console.log(`Nome dog: ${ nome }`)
 console.log(`Peso dog: ${ peso }kg` )
 console.log(`Gramas dia: ${ gramasDia }g`)
 console.log(`Duração estoque: ${ duracaoEstoque } dias `)
-//console.log(`------------------------------------------`)
 
 }
 
