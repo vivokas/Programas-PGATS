@@ -55,3 +55,5 @@ console.log(`Duração estoque: ${ duracaoEstoque } dias `)
 calculoConsumoRacao("Tob", 14.6 , 15000)
 calculoConsumoRacao("Vic", 20.6 , 15000)
 calculoConsumoRacao("Star", 14.6 , 15000)
+
+
