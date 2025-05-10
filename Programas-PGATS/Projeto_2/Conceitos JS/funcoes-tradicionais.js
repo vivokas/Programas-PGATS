@@ -14,8 +14,8 @@ function obterNomePessoaFormatado(nome) {
 
 }
 
-function exibirRacaPessoa(porte = 'Negra') {
-    console.log(porte)
+function exibirRacaPessoa(raca = 'Negra') {
+    console.log(raca)
 }
 
 function objterObjetoPessoa() { //retorno tipo objeto
@@ -76,4 +76,5 @@ console.log(obterNomePessoaFormatado("Viviane Aparecida")) //imprimindo função
 console.log(objterObjetoPessoa())
 console.log(ListarObjetoPessoa())
 console.log(ListarNomePessoa())
+
 

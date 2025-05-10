@@ -1,22 +1,43 @@
-/*Instaldo extensão IntelliSense para auto complete sugestão codigo. */
+/* Funções de seta/flecha 
 
-/* Funções */
+*/
 
 //Funcao nomeada, com parametro sem retorno
 
+/*
 function exibirNomePessoa(nome) {
     console.log(nome)
-}
+} 
+
+
+function exibirRacaPessoa(raca = 'Negra') {
+    console.log(raca)
+} 
+    
 
 //Funcao nomeada, com parametro COM retorno
 function obterNomePessoaFormatado(nome) {
     return nome.toUpperCase() 
+} */
+
+
+//Refatorado
+const exibirNomePessoa = (nome) => { //atribuição de função (nome)=>
+    console.log(nome)
 
 }
 
-function exibirRacaPessoa(porte = 'Negra') {
-    console.log(porte)
+const exibirRacaPessoa = (raca = 'Negra') => {
+    console.log(raca)
+
 }
+
+const obterNomePessoaFormatado = (nome) => {
+    return nome.toUpperCase()
+
+}
+
+const dobrar = (numero) => numero * 2
 
 function objterObjetoPessoa() { //retorno tipo objeto
     return {
@@ -76,4 +97,5 @@ console.log(obterNomePessoaFormatado("Viviane Aparecida")) //imprimindo função
 console.log(objterObjetoPessoa())
 console.log(ListarObjetoPessoa())
 console.log(ListarNomePessoa())
+
 
