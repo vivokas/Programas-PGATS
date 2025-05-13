@@ -50,7 +50,7 @@ function objterObjetoPessoa() { //retorno tipo objeto
 }
 
 
-function objterObjetoPessoa() { //retorno tipo objeto
+function obterObjetoPessoa() { //retorno tipo objeto
     return {
         nome: "Viviane", //nome= propriedade ou atributo com valor Viviane
         peso: "60kg",  
@@ -94,8 +94,15 @@ function ListarNomePessoa() { //retorno tipo objeto
 exibirNomePessoa("Viviane") //chamado função, passou o nome "Viviane" para o parametro nome que foi impresso
 exibirRacaPessoa() // chama função sem passagem de parametro
 console.log(obterNomePessoaFormatado("Viviane Aparecida")) //imprimindo função com passagem parametro
-console.log(objterObjetoPessoa())
+console.log(obterObjetoPessoa())
 console.log(ListarObjetoPessoa())
 console.log(ListarNomePessoa())
 
+const nomesDeDogs = ListarNomePessoa() 
 
+
+function filtrarNumeros(lista) {
+    Array.from().filter() //filter é uma função pré definida para filtrar
+    return lista.filter(item => typeof item ==='number'); //função dentro de função
+
+}

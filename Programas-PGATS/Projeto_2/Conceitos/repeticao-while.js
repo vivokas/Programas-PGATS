@@ -1,8 +1,13 @@
+/*
+
+*/
 
 let voltasAteFicarCansado = 5
 let quantidadeVoltasAtual = 0
 
-while (quantidadeVoltasAtual <= voltasAteFicarCansado){
-    console.log(`Dar uma volta na quadra´)
+while (quantidadeVoltasAtual < voltasAteFicarCansado) { //enquanto condição não for verdadeira 
+    console.log(`Dar uma volta na quadra`)
+
+    quantidadeVoltasAtual++
 }
-return
+    
