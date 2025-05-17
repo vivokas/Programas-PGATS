@@ -10,3 +10,4 @@ import{exibirNomePet,exibirIdadePet} from './modularizacao-export.js' //importar
 
 exibirNomePet(`Ted`)
 exibirIdadePet(`9`)
+
