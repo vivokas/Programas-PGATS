@@ -106,3 +106,8 @@ function filtrarNumeros(lista) {
     return lista.filter(item => typeof item ==='number'); //função dentro de função
 
 }
+
+
+//Ideal para quando você quer uma função de uma linha só.
+//Usar com métodos como .map(), .forEach(), .filter()
+
