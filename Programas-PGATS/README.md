@@ -23,3 +23,5 @@ Teste de Unidade
  - jest
 
  Foi utilizado mocha.
+
+ Caso apresente erro ao rodar arquivo .JS com comando mocha, deve instalar a extensão mocha.
