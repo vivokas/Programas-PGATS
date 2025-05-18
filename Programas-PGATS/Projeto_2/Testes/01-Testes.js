@@ -33,22 +33,27 @@
 
  */
 
+      
       import{exibirNomeFormatado} from '../Conceitos/Testes-unidade.js' //aspas simples
       import assert from 'node:assert'
 
+      
       describe('Testes do Projeto', () =>  { //aspas simples
         it(`Deve exibir o nome de alguem com letras maiusculas`, () => {
           assert.strictEqual(exibirNomeFormatado('joão'), 'JOÃO')
       }) 
-
+        
         it(`Prmeiro Teste`, () => {
 
         })
         
         it(`Segundo Teste`, () => {
-          throw new Error()
+          throw new Error("Erro de teste")
 
       })
 
     })
+
+
+    
 
