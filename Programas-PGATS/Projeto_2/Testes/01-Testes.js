@@ -41,6 +41,7 @@
       describe('Testes do Projeto', () =>  { //aspas simples
         it(`Deve exibir o nome de alguem com letras maiusculas`, () => {
           assert.strictEqual(exibirNomeFormatado('joão'), 'JOÃO')
+          //verifique se: valor atual é igual ao valor esperado
       }) 
         
         it(`Prmeiro Teste`, () => {

@@ -42,10 +42,10 @@ const idadeMinima = 2
 // 2°  - Exemplo
 
 const nome = 'Ada'
-const idade = 0
+const idade = 1
 const porte = 'P'
 
-const idadeMinima = 2 
+const idadeMinima = 1 
 
 const adocao = idade >= idadeMinima 
                 ? 'sim'
@@ -55,15 +55,16 @@ const adocao = idade >= idadeMinima
 
 const adocaov2 = idade >= idadeMinima || porte === 'P'
 
-console.log(adocao)
+//console.log(adocao)
 console.log(adocaov2)
 
 function verificarSePodeSerAdotado(idade, porte) {
-  const adocao = idade >= idadeMinima 
-                ? 'sim'
-                : porte === 'P' 
-                ? 'sim'
-                : 'não'
+  //Operadoers ternários
+  const adocao = idade >= idadeMinima  //se idade minima for maior ou igual  
+                ? 'sim'                //retorna sim 
+                : porte === 'P'        // se porte é igual ao valor
+                ? 'sim'                //retorna sim 
+                : 'não'                //caso contrário retorna não               
 
   // return adocao
   console.log(adocao)
@@ -75,8 +76,8 @@ function verificarSePodeSerAdotado(idade, porte) {
 // idade 1 + porte P = sim, pelo porte
 
 verificarSePodeSerAdotado(1, 'M')
-verificarSePodeSerAdotado(2, 'M')
-verificarSePodeSerAdotado(2, 'P')
-verificarSePodeSerAdotado(1, 'P')
+//verificarSePodeSerAdotado(2, 'M')
+//verificarSePodeSerAdotado(2, 'P')
+//verificarSePodeSerAdotado(1, 'P')
 
 

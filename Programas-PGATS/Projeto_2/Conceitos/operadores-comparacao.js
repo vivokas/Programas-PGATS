@@ -7,7 +7,7 @@
  <=  - menor ou igual que
  ==  - igualdade somente de valores
  !=  - diferença somente de valores
- === - igualdade de valors e tipo de dado
+ === - igualdade de valores e tipo de dado
 
 */
 
