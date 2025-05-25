@@ -22,6 +22,8 @@ Teste de Unidade
  - mocha
  - jest
 
- Foi utilizado mocha.
+ Foi utilizado a biblioteca de testes de unidade mocha.
 
  Caso apresente erro ao rodar arquivo .JS com comando mocha, deve instalar a extensão mocha.
+
+ 
