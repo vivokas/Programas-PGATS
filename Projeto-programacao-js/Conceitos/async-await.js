@@ -1,4 +1,4 @@
-/* /teste alteraçao
+/* /teste alteraçao 
 A palavra-chave **async** é usada para declarar uma função assíncrona, ou seja, uma função que retorna uma Promise automaticamente.
 Mesmo que você só esteja retornando uma string, o async transforma isso em uma Promise:
 
@@ -23,4 +23,4 @@ Tudo que você await deve ser uma Promise (ou um valor que se comporta como uma)
     return nome.toUpperCase()
 
 }
-console.log( await exibirNomeFormatado('joão'))  
+console.log( await exibirNomeFormatado('joão'))   
