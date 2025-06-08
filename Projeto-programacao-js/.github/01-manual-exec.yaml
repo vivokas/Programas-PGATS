@@ -25,7 +25,7 @@ jobs:
       #instalação do Node.js
       - uses: actions/setup-node@v4
         with:
-          node-version: 22.x # ou a versão que você preferir
+          node-version: 18.x # ou a versão que você preferir
 
       # Instalação do Yarn
       - name: Instalação do Yarn
