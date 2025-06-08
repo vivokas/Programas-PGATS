@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "Programas-PGATS",
   "main": "index.js",
-  "scripts": { 
+  "type": "module",
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^11.5.0"
+  }
 }
